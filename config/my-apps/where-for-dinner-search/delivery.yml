@@ -65,7 +65,7 @@ spec:
           value: mysql
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details="always" -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include="*" -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080"
-        image: gcr.io/tap-ci/ci-pipeline/apps-14-07-2024-22-35-12-822863344/where-for-dinner-search-my-apps@sha256:0c031cf2353cf21ec4eeaef3021b0e3614d7cafa5d6b67dcb04463d866180f6a
+        image: gcr.io/tap-ci/ci-pipeline/apps-14-07-2024-22-35-12-822863344/where-for-dinner-search-my-apps@sha256:54390b100a7589e178cfdff0728ed04d50d0a987e4369ebc204ce13ade9680ac
         livenessProbe:
           httpGet:
             path: /livez
